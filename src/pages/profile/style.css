@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.app {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px;
+  background: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tab-btn.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.basic-details-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.skills-input {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.skill-tag {
+  background: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-tag button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.profile-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+}

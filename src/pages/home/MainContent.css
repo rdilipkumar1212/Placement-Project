@@ -1,0 +1,45 @@
+.main-content {
+  background: #f4f4f9;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.section img {
+  width: 50%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.section .content {
+  width: 45%;
+}
+
+.section h2 {
+  color: #0056b3;
+}
+
+.section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.section blockquote {
+  font-style: italic;
+  margin: 10px 0;
+  background-color: #eef3ff;
+  padding: 15px;
+  border-left: 5px solid #0056b3;
+}
+
+.section p,
+.section ul,
+.section blockquote {
+  font-size: 20px;
+  line-height: 1.5;
+}
